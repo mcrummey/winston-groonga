@@ -1,2 +1,2 @@
 # winston-groonga
-A Groonga Database transport Winston
+A Winston transport for Groonga Database
