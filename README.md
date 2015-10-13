@@ -1,6 +1,8 @@
 # winston-groonga
 A Winston transport for Groonga Database
 
+Version 0.0.2
+
 ## Installation
 
 ```bash
