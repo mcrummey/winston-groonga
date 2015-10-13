@@ -16,10 +16,28 @@ var winston = require('winston'),
 winston.add(winstonGroonga, {
   host: 'localhost',
   port: 5984,
-  // optional
   protocol: 'http'
   table: 'logs',
   severity: 'info'
 })
 
+or
+
+winston.add(winstonGroonga, {
+  protocol: 'http'
+  url: 'your.path.url:port/path',
+  table: 'logs',
+  severity: 'info'
+})
+
+or
+
+winston.add(winstonGroonga, {
+  host: 'localhost',
+  port: 5984,
+  path: '/your/pathe/here',
+  protocol: 'http'
+  table: 'logs',
+  severity: 'info'
+})
 ```
