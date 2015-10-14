@@ -1,7 +1,7 @@
 # winston-groonga
 A Winston transport for Groonga Database
 
-Version 0.0.2
+v 0.0.3 - 10/14/2015
 
 ## Installation
 
@@ -18,10 +18,28 @@ var winston = require('winston'),
 winston.add(winstonGroonga, {
   host: 'localhost',
   port: 5984,
-  // optional
   protocol: 'http'
   table: 'logs',
   severity: 'info'
 })
 
+or
+
+winston.add(winstonGroonga, {
+  protocol: 'http'
+  url: 'your.path.url:port/path',
+  table: 'logs',
+  severity: 'info'
+})
+
+or
+
+winston.add(winstonGroonga, {
+  host: 'localhost',
+  port: 5984,
+  path: '/your/pathe/here',
+  protocol: 'http'
+  table: 'logs',
+  severity: 'info'
+})
 ```
