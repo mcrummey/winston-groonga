@@ -1,6 +1,10 @@
 {
   "name": "winston-groonga",
+<<<<<<< HEAD
   "version": "0.0.2",
+=======
+  "version": "0.0.3",
+>>>>>>> 706ab6028c2bf90dea618206d1de0f2e72ab61ce
   "description": "A Winston transport for Groonga Database",
   "main": "./lib/winston-groonga",
   "scripts": {
