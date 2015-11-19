@@ -20,7 +20,7 @@ winston.add(winstonGroonga, {
   port: 5984,
   protocol: 'http'
   table: 'logs',
-  severity: 'info'
+  level: 'info'
 })
 
 or
@@ -29,7 +29,7 @@ winston.add(winstonGroonga, {
   protocol: 'http'
   url: 'your.path.url:port/path',
   table: 'logs',
-  severity: 'info'
+  level: 'info'
 })
 
 or
@@ -40,6 +40,6 @@ winston.add(winstonGroonga, {
   path: '/your/pathe/here',
   protocol: 'http'
   table: 'logs',
-  severity: 'info'
+  level: 'info'
 })
 ```
