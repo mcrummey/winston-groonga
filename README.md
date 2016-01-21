@@ -1,7 +1,7 @@
 # winston-groonga
 A Winston transport for Groonga Database
 
-v 0.0.3 - 01/20/2016
+v 0.0.4 - 01/20/2016
 
 ## Installation
 
@@ -13,7 +13,7 @@ npm i --save winston winston-groonga
 
 ```js
 var winston = require('winston'),
-    winstonGroonga = require('winston-groonga').Groonga
+    winstonGroonga = require('winston-groonga').Groonga;
 
 winston.add(winstonGroonga, {
   host: 'localhost',
