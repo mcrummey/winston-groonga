@@ -1,7 +1,7 @@
 # winston-groonga
 A Winston transport for Groonga Database
 
-v 0.0.3 - 10/14/2015
+v 0.0.3 - 01/20/2016
 
 ## Installation
 
